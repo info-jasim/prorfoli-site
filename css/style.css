@@ -1,0 +1,259 @@
+*{
+    box-sizing: border-box;
+    font-family: 'fira sans' ,'sans-serif';
+}
+body{
+    margin: 0;
+}
+.dotted-hr{
+    border: dotted 6px wheat;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 70px;
+}
+.about-hr{
+    border: solid 2px wheat;
+}
+
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+h1{
+    font-size: 1.2rem;
+    text-align: center;
+}
+a{
+    color: aliceblue;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+p{
+    font-size: 1.2rem;
+
+}
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+/*---for-mobaile---*/
+[class*="col-"]{
+    width: 100%;
+}
+/*---nav-bar---*/
+#nav-con{
+    background: url('../photo/nav-background.jpg');
+}
+#nav-bar{
+    background: transparent;
+    backdrop-filter: blur(3px);
+    padding: 1% 7%;
+    text-align: center;
+}
+
+#nav-bar h1{
+    color: #fff;
+    margin: 0%;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+.nav-logo img{
+    width: 135px;
+    height: 135px;
+    border: none;
+    border-radius: 50%;
+}
+.nav-manu{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+.nav-manu a{
+    background: #0c60685d;
+    border-radius: 10px;
+    margin: 7px 0px;
+    padding: 10px;
+}
+.nav-manu a:hover{
+    background: #011e20;
+}
+#nav-con::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+#nav-bar::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/*----ends-nav-bar--*/
+
+/*---profile---*/
+#profile-con{
+    padding: 130px 10px;
+    position: relative;
+    text-align: center;
+    background: #000;
+}
+.profile-con img{
+    width: 135px;
+    height: 135px;
+    border: none;
+    border-radius: 50%;
+}
+.profile-con .pr-1{
+    position: absolute;
+    top: 20px ;
+    right: 60px;
+}
+.profile-con h1{
+    font-family:  "Satisfy", serif;
+    color: rgb(59, 13, 224);
+}
+.profile-con p{
+    text-align: justify;
+    color: maroon;
+    font-family:  "Satisfy", serif;
+}
+.profile-con .pr-2{
+    position: absolute;
+    left: 60px;
+    bottom: 0px;
+}
+#profile-con{
+    content: '';
+    display: table;
+    clear: both;
+}
+/*---ens -- profile--*/
+
+/*----about---*/
+#about-us{
+background: #39a4ac;
+padding: 1% 7%;
+color: #fff;
+text-align: center;
+font-family: "Montserrat", serif;
+}
+.about-icon img{
+    border: 5px solid wheat;
+    border-radius: 50%;
+    height: 230px;
+    width: 230px;
+}
+.about-dis p{
+    text-align: center;
+}
+#about-us::after{
+    clear: both;
+    content: '';
+    display: table;
+}
+
+/*---ends--about--*/
+
+/*--services--*/
+.services{
+    padding: 1% 0%;
+    background: #02311aa8;
+}
+.services h1{
+    font-family: 'satisfy','cusive';
+    font-size: 3rem;
+    color: red;
+    text-shadow: 3px 2px black;
+    margin: 2px;
+    padding: 5px;
+}
+.crad{
+    margin: 0 auto;
+    width: 90%;
+    background: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    height: 650px;
+    text-align: center;
+    color: maroon;
+}
+.crad .crad-icon{
+    width: 100%;
+}
+.crad-icon img{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.crad h2 , p{
+    font-family: "Satisfy", serif;
+}
+.crad:hover{
+    box-shadow: 4px 8px 16px rgb(209, 12, 12);
+}
+
+#services::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/*--ends--services--*/
+/*--contac--*/
+
+.contac{
+    background:#39a4ac;
+    padding: 1% 2%;
+}
+.contac h1{
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+.contac-frm{
+    text-align: center;
+}
+.contac-frm button{
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background: rgb(1, 1, 37);
+    color: #fff;
+    text-transform: capitalize;
+}
+.contac-link{
+    text-align: center;
+}
+.contac-link .btn{
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+}
+.contac-frm input,textarea{
+    width: 100%;
+    resize: none;
+    border-radius: 15px;
+    text-align: center;
+    border: none;
+    margin: 10px 0px;
+    padding: 10px 0px;
+}
+
+
+
+
+
+.contac::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/*--ends-contac---*/
+
+
+.devoloped{
+    padding: 1% 7%;
+   text-align: center;
+   color: aliceblue;
+   background-color: #000;
+}
